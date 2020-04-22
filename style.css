@@ -1,0 +1,64 @@
+
+.back {
+    border-radius:50%;
+    width:400px;
+    height:400px;
+    margin: 100px auto;
+    position: relative;
+    background:#333;
+    box-shadow: 0px 0px 55px #333;
+}
+
+.circle {
+    position:relative;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    left: 100px;
+    top: 100px;
+    z-index: auto;
+    background-color: #333;
+    box-shadow: 0px 0px 20px #333;
+    cursor: pointer;
+}
+.level {
+    text-align: center;
+    color:white;
+    font-size: 33px;
+    padding-top:50px;
+    line-height: 30px;
+}
+.pad {
+    width: 180px;
+    height: 180px;
+    opacity: 0.5;
+    position:absolute;
+}
+.shape1 {
+    left:15px;
+    top:15px;
+    background: rgb(255, 0, 0);
+    border-radius:320px 10px 10px 10px;
+}
+.shape2 {
+    right:15px;
+    top:15px;
+    background:rgb(255,255,0);
+    border-radius:10px 320px 10px 10px;
+}
+.shape3 {
+    right:15px;
+    bottom:15px;
+    background:rgb(0,0,255);
+    border-radius:10px 10px 320px 10px;
+}
+.shape4 {
+    left:15px;
+    bottom:15px;
+    background:rgb(0,255,0);
+    border-radius:10px 10px 10px 320px;
+}
+
+.select {
+    opacity: 1;
+}
